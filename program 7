@@ -10,7 +10,7 @@ int main(){
   if(distance > 4)
     fare = 40.0f + (distance - 4) * 5;
   else
-    fade = distance * 10.0f;
+    fare = distance * 10.0f;
 
   cout<<"Your total fare is "<<fare;
 }
